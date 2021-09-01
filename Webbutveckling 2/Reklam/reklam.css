@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#left{
+    width: 33%;
+    height: 100vh;
+    display: inline;
+    float: left;
+    
+}
+
+#middle{
+    width: 33%;
+    height: 100vh;
+    /*background-color: green;*/
+    display: inline;
+    float : left;
+}
+
+#right{
+    width: 33%;
+    height: 100vh;
+    display: inline;
+    float: left;
+}
+
+#menu{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-right: 10px;
+    /*background-color: greenyellow;*/
+    float: right;
+}
+
+img{
+    margin-top: 15vh;
+    width: 34vw;
+    opacity: 80%;
+}
+
+p{
+    color: rgb(180, 180, 180);
+    text-align: justify;
+    margin: 15px;
+    
+}
+
+a{
+    color: rgb(180, 180, 180);
+    text-decoration-line: none;
+    
+}
+
+body{
+    background-color: black;
+    transition: background-color 60s ease-in-out;
+}
