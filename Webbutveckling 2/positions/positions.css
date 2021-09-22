@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction:row;
+}
+#sidebar{
+    width:29%;
+    height: 110vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#other{
+    width:100%;
+    background-color: salmon;
+    
+}
+
+img{
+    width: 80%;
+    height: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    width:100%;
+    background-color: red;
+    display: inline-block;
+    
+    position: sticky;
+    top: 0;
+}
+
+p{
+    text-align: center;
+}
+
+table, td, th{
+    border: black;
+    border-style: solid;
+}
+
+
+#bullshit{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+}

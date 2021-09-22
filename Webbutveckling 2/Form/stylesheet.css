@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.personal-container{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    margin: 0.5em;
+}
+
+.personal-container > div{
+    margin: 0.5em;
+}
+
+input[type=text]:focus{
+    width: 100%;
+    max-width: 300px;
+    background-color: lightcyan;
+}

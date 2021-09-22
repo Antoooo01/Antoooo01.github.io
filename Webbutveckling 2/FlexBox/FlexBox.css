@@ -1,0 +1,40 @@
+*{
+    margin: 0em;
+    padding: 0em;
+}
+
+body{
+    background-color: cornsilk;
+}
+
+header{
+    background-color: darksalmon;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+a{
+margin-left: 2em;
+margin-right: 2em;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: yellow; */
+    height: 100%;
+}
+
+img{
+    width: 70%;
+    height: 70%;
+}
+
+figure{
+    /* background-color: blue; */
+    width: 30%;
+    height: 30%;
+    text-align: center;
+}

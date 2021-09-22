@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal</legend>
+
+            <div class="personal-container">
+                <div>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="first name">
+                </div>
+                <div>
+                    <label for="bdate">Birthdate:</label><br>
+                    <input type="text" id="bdate" name="bdate" value="dd/mm/yyyy">
+                </div>
+                <div>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="last name">
+                </div>
+                <div>
+                    <label for="email">E-mail</label><br>
+                    <input type="text" id="email" name="email" value="email">
+                </div>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+
+            <div class="personal-container">
+                <div>
+                    <label for="skola">Skola</label><br>
+                    <input type="text" id="skola" name="skola" value=""><br>
+                </div>
+                <div>
+                    <label for="program">Program</label><br>
+                    <input type="text" id="program" name="program" value=""><br>
+                </div>
+                <div>
+                    <label for="year">Åk</label><br>
+                    <input type="number" id="year" name="year" value="1" min="1" max="3"><br>
+                </div>
+            </div>
+        </fieldset>
+        <button>Spara</button>
+    </form>
+</body>
+</html>
