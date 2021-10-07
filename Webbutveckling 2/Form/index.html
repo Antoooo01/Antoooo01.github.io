@@ -8,49 +8,74 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="">
-        <fieldset>
-            <legend>Personal</legend>
+    <form onsubmit="return false">
+        <fieldset id="java">
+            <legend>Javascript</legend>
 
             <div class="personal-container">
                 <div>
                     <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname" value="first name">
+                    <input type="text" id="fname" placeholder="first name">
                 </div>
                 <div>
-                    <label for="bdate">Birthdate:</label><br>
-                    <input type="text" id="bdate" name="bdate" value="dd/mm/yyyy">
-                </div>
-                <div>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname" value="last name">
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" placeholder="password">
                 </div>
                 <div>
                     <label for="email">E-mail</label><br>
-                    <input type="text" id="email" name="email" value="email">
+                    <input type="text" id="email" placeholder="email" >
+                </div>
+                <div>
+                    <label for="password2">Last name:</label><br>
+                    <input type="password" id="password2" placeholder="repeat password">
+                </div>
+                <div>
+                    <p>villkor</p>
+                    <input type="checkbox" id="checkbox">   
+                </div>
+                <div class="info">
+
                 </div>
             </div>
 
-        </fieldset>
-        <fieldset>
-            <legend>Education</legend>
-
-            <div class="personal-container">
-                <div>
-                    <label for="skola">Skola</label><br>
-                    <input type="text" id="skola" name="skola" value=""><br>
-                </div>
-                <div>
-                    <label for="program">Program</label><br>
-                    <input type="text" id="program" name="program" value=""><br>
-                </div>
-                <div>
-                    <label for="year">Åk</label><br>
-                    <input type="number" id="year" name="year" value="1" min="1" max="3"><br>
-                </div>
-            </div>
         </fieldset>
         <button>Spara</button>
     </form>
+    <form onsubmit="return false" id="html5">
+        <fieldset id="html">
+            <legend>html5</legend>
+
+            <div class="personal-container">
+                <div>
+                    <label for="Hfname">First name:</label><br>
+                    <input type="text" id="Hfname" name="Hfname" value="first name">
+                </div>
+                <div>
+                    <label for="Hpassword">Password:</label><br>
+                    <input type="password" id="Hpassword" name="Hpassword" value="password">
+                </div>
+                <div>
+                    <label for="Hemail">E-mail</label><br>
+                    <input type="text" id="Hemail" name="Hemail" value="email">
+                </div>
+                <div>
+                    <label for="Hpassword2">Last name:</label><br>
+                    <input type="password" id="Hpassword2" name="Hpassword2" value="password2">
+                </div>
+                <div>
+                    <p>villkor</p>
+                    <input type="checkbox" name="Hcheckbox" id="Hcheckbox">   
+                </div>
+                <div class="Hinfo">
+                    
+                </div>
+            </div>
+
+        </fieldset>
+        <button>Spara</button>
+    </form>
+
+    <script src="js.js"></script>
 </body>
 </html>
+
